@@ -127,13 +127,9 @@ ls -ltr
 #Day 2
 * Definition of core and Die,Preplaced Cells, placement of decoupling capacitors, pin placement and logical cell placement block.
 
-And we will also explain its some factors like Utilization Fcators And Aspect Ratio.
+And we will also explain its some factors like Utilization Factors And Aspect Ratio.
 
-</p>
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/215344362-2b689123-76e6-4dd2-9769-8514387247c3.png"></br>
-   fig. : 
-</p>
+
 
 **Core and Die
 The core and Die area depends on the dimensions of Logic Gates and due to which it also depends on the dimension of chip. As, whatever dimension of chip will come it will calculate the area accordingly. The core and die area are also depends on the dimensions of Standard Cells.
@@ -184,7 +180,7 @@ run_floorplan
 
 </p>
 <p align="center">
-  <img src="![floorplan_run](https://user-images.githubusercontent.com/88899069/216446905-ebe967e3-826a-4c5d-a89b-40cc1a9e2ab6.png)"></br>
+  <img src="(https://user-images.githubusercontent.com/88899069/216446905-ebe967e3-826a-4c5d-a89b-40cc1a9e2ab6.png)"></br>
    fig.
 </p>
 
