@@ -1,6 +1,6 @@
 # Advanced-Physical-Design-Using-OpenLane--SKY130
 
-# Advanced-Physical-Design-Using-OpenLane-SKY130
+
 
 # Table of Contents
 
