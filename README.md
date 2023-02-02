@@ -113,3 +113,66 @@ using this command:-
 
 run_synthesis
 
+
+Synthesis starts running and after the synthesis completed a netlist is generated in it's result 
+To see the netlist it is available under the following directory 
+
+Desktop/vsdflow/work/tools/openlane_working_dir/OpenLane/designs/picorv32a/runs/results/sysnthesis
+To see this generated netlist just execute this command under the following directory which is mentioned above:-
+
+ls -ltr
+
+
+#Day 2
+* Definition of core and Die,Preplaced Cells, placement of decoupling capacitors, pin placement and logical cell placement block.
+
+And we will also explain its some factors like Utilization Fcators And Aspect Ratio.
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215344362-2b689123-76e6-4dd2-9769-8514387247c3.png"></br>
+   fig. : 
+</p>
+
+**Core and Die
+The core and Die area depends on the dimensions of Logic Gates and due to which it also depends on the dimension of chip. As, whatever dimension of chip will come it will calculate the area accordingly. The core and die area are also depends on the dimensions of Standard Cells.
+
+The wires did not contribute to these dimensions.
+**Utilization Factor
+
+Utilization Factor is defined as the ratio of area occupied by the netlist to the total area of the core.
+
+**Aspect ratio
+
+Aspect ratio is defined as the ratio of height to the width.
+
+If aspect ratio is 1 then, it describes the chip as square otherwise it is rectangle. 
+
+
+**Preplaced cells
+
+A large circuit can be converted into smaller one and it can be called as black box.
+
+**Decoupling capacitors 
+
+These capacitors are placed local to preplaced cells during Floorplanning.
+
+Whenevr any oggling will happen in circuit the decoupling capacitors wil send the current to the circuit and there will be no voltage drop.
+
+The capacitor will refresh itself whenever there is no switching.
+
+**Power planning
+The power planning is done on global level which is very important for digital circuits which are prone to voltage drop and ground bounce.
+
+**Pin Placement
+The placement of the input /output ports of various circuits vary from designer to designer .
+
+All the input output ports can be placed near to the cells which make use of them. A proper design should be known to arrange the pins.
+
+**Logical cell placement block 
+
+These blocks are placed to differentiate the core area and the input /output area .
+
+Cells should be placed in the area where the pins are placed.
+
+
