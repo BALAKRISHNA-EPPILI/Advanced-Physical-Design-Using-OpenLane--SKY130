@@ -182,16 +182,25 @@ To run floorplan the following command is used:-
 
 run_floorplan
 
+</p>
+<p align="center">
+  <img src="![floorplan_run](https://user-images.githubusercontent.com/88899069/216446905-ebe967e3-826a-4c5d-a89b-40cc1a9e2ab6.png)"></br>
+   fig.
+</p>
+
 The floorplan can be run according to all those configurations which are mentioned in the config. TCL file.
 
 
 The floorplan can be viewed in the magic using this command :-
 
-magic -T /home/Desktop/username/work/tools/openlane_working_dir/OpenLane/pdks
+ magic -T /home/vanshikatanwar/desktop/vsdflow/work/tools/openlane_working_dir/OpenLane/pdks/volare/sky130/versions/9f1c2b06d2b5a6708cfe0b55679c7e84d37220cc/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.max.lef lef read ../../tmp/merged.min.lef lef read ../../tmp/merged.nom.lef def read picorv32.def &
 
-This is the image which shows the view
-after opening floorplan in magic tool .
-Ok doing zoom it is observed that the respective input /output ports and standard cells are shown.
+This is the image which shows the view after opening floorplan in magic tool .
+
+
+
+
+Now, on  doing zoom it is observed that the respective input /output ports and standard cells are shown.
 
 
 Placement
@@ -204,6 +213,7 @@ Global placement does not focus on legalizing the cell while at the same time lo
 In global placement the cells can be overlapped or it is possible in global placement that it can be placed even outside the boundary .
 
 To execute the placement this command has to be use :-
+
 run_placement
 
 After placement the result can be shown like this as mentioned below :-
@@ -280,6 +290,7 @@ If you want to know about a particular layer ,then just select an area and write
 To select a particular layer ,just press S twice there, where your cursor of the mouse is , a white highlighted region come over that layer .
 
 
+*Invoking OpenLane
 
 
 
