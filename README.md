@@ -107,7 +107,8 @@ and execute this command
 
 You wil see a RUN folder inside this directory have created.
 
-* Now , we wil run the synthesis in the openlane interactive terminal
+*Synthesis
+ Now , we wil run the synthesis in the openlane interactive terminal
 
 using this command:-
 
@@ -174,5 +175,111 @@ All the input output ports can be placed near to the cells which make use of the
 These blocks are placed to differentiate the core area and the input /output area .
 
 Cells should be placed in the area where the pins are placed.
+
+*Floorplanning
+
+To run floorplan the following command is used:-
+
+run_floorplan
+
+The floorplan can be run according to all those configurations which are mentioned in the config. TCL file.
+
+
+The floorplan can be viewed in the magic using this command :-
+
+magic -T /home/Desktop/username/work/tools/openlane_working_dir/OpenLane/pdks
+
+This is the image which shows the view
+after opening floorplan in magic tool .
+Ok doing zoom it is observed that the respective input /output ports and standard cells are shown.
+
+
+Placement
+
+Placement can be done in 2 stages :-
+These stages are
+Global and local placement
+
+Global placement does not focus on legalizing the cell while at the same time local placement focused on legalizing the cells.
+In global placement the cells can be overlapped or it is possible in global placement that it can be placed even outside the boundary .
+
+To execute the placement this command has to be use :-
+run_placement
+
+After placement the result can be shown like this as mentioned below :-
+
+Picture of placement
+
+Placement can be seen in magic tool also , and the command which is used to see the placement in magic tool is given below:-
+
+
+
+Day 3
+
+16 Mask CMOS Process
+The process is stated below:-
+
+1.Selecting a substrate :
+It's a base on which the whole chip is fabricated .
+
+2.Creating active regions for transistors :
+
+A photolithography process is used using which a small size of pockets are created for placing the PMOS and NMOS in this pocket . These small size pocket is known as active regions. We have make these pockets isolated so,that they don't interfere with each other .
+
+3.N well and P well formartion :
+
+2 wells are created  named as N well and P well and in which N well is used for PMOS fabrication and P well is used for NMOS fabrication.
+
+4.Gate formation :
+
+For controlling the threshold voltage there are 2 important factors which can be used for controlling this voltage. These, factors are doping concentration and the oxide capacitance.This threshold voltage further decided the functioning of the gate .
+
+5.Formation of Lightly Doped Drain (LDD) :
+
+To avoid short channel effect and the hot electron effect a doping profile is achieved for it .
+
+6.Source and Drain formation :
+Then, the Source and the Drain are formed
+
+7.Contacts & local Interconnect Creation :
+
+Removing the screen oxide and opens up the source drain and gate region to build the contacts.TiN layer is used for local communication.
+
+8.Higher Level metal layer formation :
+
+
+The upper layer of  metal and contact holes are drilled by the process of deposition .
+
+
+Since, the standard cell of inverter will take time to build so, what we will do we will download it's .mag file from the github.
+
+The post layout simulation of inverter has to be done in ngspice from this .mag file which will soon be interfaced with picorv32a design and then all the observations will be noted.
+
+
+
+The github repository from which we need to download the .mag file is given below.
+Use this command to clone the repository .
+
+git clone https://github.com/nickson-jose/vsdstdcelldesign.git
+
+The tech file of the magic is present in the pdk directory of the openlane and from there we need to copy that tech file to the vsdstdcelldesign directory.
+
+To see the layout of inverter in magic execute this command on terminal which is given below:-
+
+magic -T sky130A.tech sky130_inv.mag &
+
+The layout of the magic can be seen like this :-
+
+
+
+
+All these colour pallets which is showing in magic tool showing us all the layers of the layout. Also, the top right corner specifies the name of the layer according to the colour which is selected.
+
+
+If you want to know about a particular layer ,then just select an area and write "what" command in tkcon window of magic . It gives you the information regarding the device.
+To select a particular layer ,just press S twice there, where your cursor of the mouse is , a white highlighted region come over that layer .
+
+
+
 
 
