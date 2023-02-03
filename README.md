@@ -372,7 +372,12 @@ magic -T sky130A.tech sky130_inv.mag &
 
 The layout of the magic can be seen like this :-
 
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/88899069/216676287-cbbd005f-8bf3-4afe-bd6d-30f122d4ef7d.png"></br>
 
+   fig.
+</p>
 
 
 All these colour pallets which is showing in magic tool showing us all the layers of the layout. Also, the top right corner specifies the name of the layer according to the colour which is selected.
