@@ -115,9 +115,10 @@ You wil see a RUN folder inside this directory have created.
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/88899069/216660353-addf2fd6-1635-4802-9a4a-eb81c65d86b0.png"></br>
+  <img src="https://user-images.githubusercontent.com/88899069/216725348-6bb91b4b-68be-451e-b9ee-7970dc19bc3d.png"></br>
    fig.
 </p>
+
 
 
 *Synthesis
@@ -145,9 +146,10 @@ ls -ltr
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/88899069/216709449-eb370eae-b789-443f-a999-44420c7aa26e.png"></br>
+  <img src="https://user-images.githubusercontent.com/88899069/216723198-a53d297e-3f85-481c-8be0-0f501bb9f21c.png"></br>
    fig.
 </p>
+
 
 
 
