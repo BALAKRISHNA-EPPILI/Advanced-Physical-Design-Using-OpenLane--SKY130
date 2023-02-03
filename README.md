@@ -220,13 +220,48 @@ The floorplan can be viewed in the magic using this command :-
 
 This is the image which shows the view after opening floorplan in magic tool .
 
-
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/88899069/216664722-09f04cbe-43d3-4219-99fe-125463d0d545.png"></br>
+   fig.
+</p>
 
 
 Now, on  doing zoom it is observed that the respective input /output ports and standard cells are shown.
 
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/88899069/216664873-753a5594-c335-4f10-b950-5f5d11a85828.png"></br>
 
-Placement
+   fig.
+</p>
+
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/88899069/216665628-0a11af72-5c22-4729-9b79-ecad99f551f8.png"></br>
+   fig. 
+</p>
+
+Decapacitor arrangement in floorplan is given below:-
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/88899069/216666127-85911e21-ce51-4d59-816e-1e025c90de81.png
+"></br>
+   fig. 
+</p>
+
+Standard cell view at left corner in the bottom of floorplan . It is shown ibn the below image:-
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/88899069/216666500-baad9cfb-849d-4347-bfa1-3529185754f3.png"></br>
+   fig. 
+</p>
+
+
+
 
 Placement can be done in 2 stages :-
 These stages are
@@ -239,11 +274,26 @@ To execute the placement this command has to be use :-
 
 run_placement
 
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/88899069/216665041-fd1973d4-7b5c-41d9-be05-200fb3da9d95.png"></br>
+
+   fig.
+</p>
+
 After placement the result can be shown like this as mentioned below :-
 
 Picture of placement
 
 Placement can be seen in magic tool also , and the command which is used to see the placement in magic tool is given below:-
+
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/88899069/216665339-a097e562-c8d4-408a-bffb-dadd3198c986.png"></br>
+
+   fig.
+</p>
 
 
 
@@ -403,3 +453,6 @@ write this above command in tkcon window
 
 
 After executing this command a LEF file is created in the same directory of vsdstdcelldesigns:-
+
+
+
