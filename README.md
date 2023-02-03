@@ -477,7 +477,7 @@ For extracting the layout of spice file of inverter ,use the command "extract al
 Now,after executing this command,when we check the vsdstdcelldesign directory a new file of .ext extension is created inside it which is the extracted file .
 This extracted file is further use to create the spice file of inverter for using the ngspice tool .
 
-/p>
+</p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/88899069/216729187-c8f73621-d783-4552-b1d5-979751ae628f.png"></br>
 
@@ -488,9 +488,32 @@ This extracted file is further use to create the spice file of inverter for usin
 
 All the parasitics capacitance are removed and the file is extracted to spice file using the following commands:-
 
+ext2spice cthresh 0 rthresh 0
+ext2spice
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/88899069/216729529-eee7357e-b212-46f5-987f-60e6d61cf0ac.png"></br>
+   fig.extracing spice file
+</p>
+
 
 
 This creates a .spice file in the vsdstdcelldesign directory inside the openlane directory .
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/88899069/216731596-47245e68-6754-41c3-94be-2a9022c84919.png"></br>
+   fig.extracing spice file
+</p>
+
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/88899069/216730301-2d38a49c-e138-4efd-9163-4be210dc670a.png"></br>
+   fig.extracing spice file
+</p>
+
 
 
 We need to edit the netlist for running the transient analysis of inverter :-
