@@ -239,8 +239,8 @@ Now, on  doing zoom it is observed that the respective input /output ports and s
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/88899069/216665628-0a11af72-5c22-4729-9b79-ecad99f551f8.png"></br>
-   fig. 
+  <img src=" https://user-images.githubusercontent.com/88899069/216668929-bb63efde-c38e-4d81-9953-a8493db3b0f7.png"></br>
+fig. 
 </p>
 
 Decapacitor arrangement in floorplan is given below:-
@@ -283,14 +283,22 @@ run_placement
 
 After placement the result can be shown like this as mentioned below :-
 
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/88899069/216669071-93a4546b-e2f0-4852-abf1-21f66232268c.png"></br>
+
+   fig.
+</p>
+
 Picture of placement
 
-Placement can be seen in magic tool also , and the command which is used to see the placement in magic tool is given below:-
+Placement can be seen in magic tool also , and the command which is used to see the placement in magic tool is given below with it's zoom view:-
 
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/88899069/216665339-a097e562-c8d4-408a-bffb-dadd3198c986.png"></br>
+  <img src="https://user-images.githubusercontent.com/88899069/216669276-690a7e76-ba5f-4392-b883-bfe4638e2ec0.png"></br>
 
    fig.
 </p>
