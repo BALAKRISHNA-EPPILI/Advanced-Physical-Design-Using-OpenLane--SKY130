@@ -231,7 +231,7 @@ Now, on  doing zoom it is observed that the respective input /output ports and s
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/88899069/216664873-753a5594-c335-4f10-b950-5f5d11a85828.png"></br>
+  <img src="https://user-images.githubusercontent.com/88899069/216667316-4ee94f97-0bc8-4870-891f-37076ad158cd.png"></br>
 
    fig.
 </p>
