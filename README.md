@@ -91,9 +91,10 @@ Here, in this github we will prepare the design of picorv32a. For , preparing it
 4) prep -design picorv32a
 
 after the execution of last step it , will be shown like this:
+
 </p>
 <p align="center">
-  <img src="![openlane](https://user-images.githubusercontent.com/88899069/216650468-e8a88814-f76c-46a3-86c1-3dae17077946.png)"></br>
+  <img src="https://user-images.githubusercontent.com/88899069/216650468-e8a88814-f76c-46a3-86c1-3dae17077946.png"></br>
    fig.
 </p>
 
