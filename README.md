@@ -479,7 +479,7 @@ This extracted file is further use to create the spice file of inverter for usin
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/88899069/216729187-c8f73621-d783-4552-b1d5-979751ae628f.png"></br>
+  <img src="https://user-images.githubusercontent.com/88899069/216731881-5c5912c6-bba3-4555-b382-a9d3a8bb0e6e.png"></br>
 
    fig.spice file creation in folder
 </p>
