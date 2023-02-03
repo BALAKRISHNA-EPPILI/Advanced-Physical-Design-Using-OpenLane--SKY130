@@ -220,7 +220,7 @@ Placement can be seen in magic tool also , and the command which is used to see 
 
 
 
-Day 3
+# Day 3
 
 16 Mask CMOS Process
 The process is stated below:-
@@ -290,3 +290,89 @@ To select a particular layer ,just press S twice there, where your cursor of the
 
 
 
+
+
+
+For extracting the layout of spice file of inverter ,use the command "extract all" in tkcon window.
+
+Now,after executing this command,when we check the vsdstdcelldesign directory a new file of .ext extension is created inside it which is the extracted file .
+This extracted file is further use to create the spice file of inverter for using the ngspice tool .
+
+All the parasitics capacitance are removed and the file is extracted to spice file using the following commands:-
+
+
+
+This creates a .spice file in the vsdstdcelldesign directory inside the openlane directory .
+
+
+We need to edit the netlist for running the transient analysis of inverter :-
+The edited netlist is given below:-
+
+
+
+To open ngspice just execute this command :-
+
+ngspice sky130Ainv.spice
+
+
+Four timing parameters are used which we need to calculate from the waveform.These parameters are:
+
+Rise transition delay = it is defined as the  Time taken for the output signal to reach from 20% to 80% of maximum value.
+
+Fall transition delat = it is defined as the Time taken for the output signal to reach from 80% to 20% of max value.
+
+Cell rise delay = it is defined as the Time difference between 50% of rising output and 50% of falling output.
+
+Cell fall delay =it is defined as the Time difference between 50% of falling output and 50% of rising output.
+
+
+
+# Day 4
+
+## To Extract LEF files
+
+Now , we need to extract the LEF File of inverter and interfaced it with the picorv32a design . 
+
+LEF file consist of all the layer information, via informations and DRC rule check and error  while the Cell LEF contains all the information of standard cells.
+
+There are 2 conditions given:-
+
+1) It is necessary for the port that it should be placed on the intersection on the horizontal and vertical track. 
+
+2) The width of the standard cell should be in placed in odd multiples of x .
+
+Tracks are used at the time of routing.And the information of track is present in the PDK files with the name tracks.info .
+
+Open this tracks.info file for all the information .
+
+It shows the name li1,met1,and so on. and with this it is also showing some numbers. 
+
+Let's take one example and understand what this number states /what's the meaning of this number and what this number is showing.
+
+"li1 X 0.23 0.46"
+
+This li1 states the layer 1 and this 0.23 is showing the horizontal offset and 0.46 is showing the pitch for the X.Similarly for Y and other metal layers track information is present .
+
+
+o check and verify that the port A and Y of standard cel Inverter is also a part of intersection or not , for that we need to use the grid option by press "g" from the keyboard on the layout of inverter so, that the grid is activated.
+
+And , also we can activate the grid from mouse by going into the windows option and then click on grid on .
+
+Then, you will be able to see the grid of the layout of inverter .
+
+
+The grid of inverter wil be seen like this:-
+
+We can also make the grids from that github of vsdstdcelldesign  which are provided there also and also provided in the tracks.info file as :-
+
+command for set the grid is given below:--
+
+The look after the grid size changed accordingly in the image given below:-
+
+Now the command which is used for extracting the LEF file is 
+
+"LEF write " 
+write this above command in tkcon window
+
+
+After executing this command a LEF file is created in the same directory of vsdstdcelldesigns:-
