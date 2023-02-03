@@ -365,7 +365,22 @@ Use this command to clone the repository .
 
 git clone https://github.com/nickson-jose/vsdstdcelldesign.git
 
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/88899069/216719121-38b71912-699c-4d11-bdd8-f9e9140d7d74.png"></br>
+
+   fig.
+</p>
+
 The tech file of the magic is present in the pdk directory of the openlane and from there we need to copy that tech file to the vsdstdcelldesign directory.
+
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/88899069/216720643-0968d314-3a41-424f-b517-3708357013ec.png"></br>
+
+   fig.
+</p>
 
 To see the layout of inverter in magic execute this command on terminal which is given below:-
 
@@ -391,9 +406,54 @@ The layout of the magic can be seen like this :-
 
 All these colour pallets which is showing in magic tool showing us all the layers of the layout. Also, the top right corner specifies the name of the layer according to the colour which is selected.
 
+</p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/88899069/216720851-b226ffaf-7ac2-4daf-b493-6ff2b6c0f65a.png"></br>
+
+   fig.
+</p>
 
 If you want to know about a particular layer ,then just select an area and write "what" command in tkcon window of magic . It gives you the information regarding the device.
 To select a particular layer ,just press S twice there, where your cursor of the mouse is , a white highlighted region come over that layer .
+
+</p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/88899069/216720999-27665bf4-8072-4925-b9f5-ef040647720f.png"></br>
+
+   fig.
+</p>
+
+</p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/88899069/216721310-d0a8b65f-528b-414b-a6dc-d238e533d877.png"></br>
+
+   fig.
+</p>
+
+
+</p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/88899069/216721515-7c988b3f-30f5-42e0-921d-0028b1742ebb.png"></br>
+
+   fig.Another region selected in inverter
+</p>
+
+</p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/88899069/216721888-463fad79-a9d6-4c22-8c30-e81b77d5147f.png"></br>
+
+   fig.tkcon window of selected region
+</p>
+
+
+
+
+
 
 
 *Invoking OpenLane
