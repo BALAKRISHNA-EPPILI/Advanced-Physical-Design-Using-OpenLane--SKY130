@@ -143,6 +143,15 @@ To see this generated netlist just execute this command under the following dire
 
 ls -ltr
 
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/88899069/216709449-eb370eae-b789-443f-a999-44420c7aa26e.png"></br>
+   fig.
+</p>
+
+
+
+
 
 #Day 2
 * Definition of core and Die,Preplaced Cells, placement of decoupling capacitors, pin placement and logical cell placement block.
