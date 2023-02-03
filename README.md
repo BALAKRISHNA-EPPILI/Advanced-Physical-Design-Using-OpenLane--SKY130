@@ -247,16 +247,16 @@ Decapacitor arrangement in floorplan is given below:-
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/88899069/216666127-85911e21-ce51-4d59-816e-1e025c90de81.png
-"></br>
+  <img src="https://user-images.githubusercontent.com/88899069/216668224-035d6108-23e9-405e-89b3-502e36d4d66d.png"></br>
    fig. 
 </p>
+
 
 Standard cell view at left corner in the bottom of floorplan . It is shown ibn the below image:-
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/88899069/216666500-baad9cfb-849d-4347-bfa1-3529185754f3.png"></br>
+  <img src="https://user-images.githubusercontent.com/88899069/216668102-3a603a66-d342-4280-86ff-7196f51b37f1.png"></br>
    fig. 
 </p>
 
