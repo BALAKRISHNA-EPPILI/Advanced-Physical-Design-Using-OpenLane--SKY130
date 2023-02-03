@@ -272,6 +272,9 @@ In global placement the cells can be overlapped or it is possible in global plac
 
 To execute the placement this command has to be use :-
 
+magic -T /home/vanshikatanwar/desktop/vsdflow/work/tools/openlane_working_dir/OpenLane/pdks/volare/sky130/versions/9f1c2b06d2b5a6708cfe0b55679c7e84d37220cc/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.max.lef lef read ../../tmp/merged.min.lef lef read ../../tmp/merged.nom.lef def read picorv32.def &
+
+
 run_placement
 
 </p>
@@ -358,6 +361,14 @@ The tech file of the magic is present in the pdk directory of the openlane and f
 To see the layout of inverter in magic execute this command on terminal which is given below:-
 
 magic -T sky130A.tech sky130_inv.mag &
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/88899069/216675375-7ff0d024-6a1f-4dd8-860e-f3cc535dddee.png"></br>
+
+   fig.
+</p>
+
 
 The layout of the magic can be seen like this :-
 
