@@ -467,8 +467,24 @@ To select a particular layer ,just press S twice there, where your cursor of the
 
 For extracting the layout of spice file of inverter ,use the command "extract all" in tkcon window.
 
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/88899069/216727403-48976129-bc56-4544-8246-6dd10c0a0abd.png"></br>
+
+   fig.extract command execution in tkcon window
+</p>
+
 Now,after executing this command,when we check the vsdstdcelldesign directory a new file of .ext extension is created inside it which is the extracted file .
 This extracted file is further use to create the spice file of inverter for using the ngspice tool .
+
+/p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/88899069/216729187-c8f73621-d783-4552-b1d5-979751ae628f.png"></br>
+
+   fig.spice file creation in folder
+</p>
+
+
 
 All the parasitics capacitance are removed and the file is extracted to spice file using the following commands:-
 
@@ -485,6 +501,16 @@ The edited netlist is given below:-
 To open ngspice just execute this command :-
 
 ngspice sky130Ainv.spice
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/88899069/216727088-45edd970-9e9b-4547-8f40-6c96145a391a.png"></br>
+
+   fig.
+</p>
+
+
+
 
 
 Four timing parameters are used which we need to calculate from the waveform.These parameters are:
@@ -526,7 +552,7 @@ Let's take one example and understand what this number states /what's the meanin
 This li1 states the layer 1 and this 0.23 is showing the horizontal offset and 0.46 is showing the pitch for the X.Similarly for Y and other metal layers track information is present .
 
 
-o check and verify that the port A and Y of standard cel Inverter is also a part of intersection or not , for that we need to use the grid option by press "g" from the keyboard on the layout of inverter so, that the grid is activated.
+To check and verify that the port A and Y of standard cel Inverter is also a part of intersection or not , for that we need to use the grid option by press "g" from the keyboard on the layout of inverter so, that the grid is activated.
 
 And , also we can activate the grid from mouse by going into the windows option and then click on grid on .
 
