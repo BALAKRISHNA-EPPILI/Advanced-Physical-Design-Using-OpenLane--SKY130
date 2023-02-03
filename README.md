@@ -113,12 +113,26 @@ and execute this command
 
 You wil see a RUN folder inside this directory have created.
 
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/88899069/216660353-addf2fd6-1635-4802-9a4a-eb81c65d86b0.png"></br>
+   fig.
+</p>
+
+
 *Synthesis
  Now , we wil run the synthesis in the openlane interactive terminal
 
 using this command:-
 
 run_synthesis
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/88899069/216661601-74c320da-9120-4c93-b9e8-e86e3dad23b9.png"></br>
+   fig.
+</p>
+
 
 
 Synthesis starts running and after the synthesis completed a netlist is generated in it's result 
